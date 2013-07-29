@@ -1,0 +1,62 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="uft-8"/>
+	<title>思维导图</title>
+	<link rel="stylesheet" href="sprites/sprites.css" media="screen"/>
+	<link rel="stylesheet" href="ui-xmind-editor.css" media="screen"/>
+</head>
+
+<body>
+
+<div class="uixe">
+	<div class="menuBar">
+		<span class="common">
+			<a class="new icon-file"></a>
+			<a class="save icon-disk"></a>
+			<a class="color icon-eyedropper"></a>
+			<span class="split"></span>
+			<a class="undo icon-reply"></a>
+			<a class="redo icon-forward"></a>
+			<span class="split"></span>
+			<a class="create icon-progress-0"></a>
+			<a class="copy icon-copy"></a>
+			<a class="edit icon-pencil"></a>
+			<a class="delete icon-close"></a>
+			<a class="move icon-move"></a>
+			<a class="toleft icon-arrow-left"></a>
+			<a class="toright icon-arrow-right"></a>
+			<span class="split"></span>
+		</span>
+		<span class="window">
+			<a class="icon-expand"></a>
+		</span>
+		<span class="menu-border"></span>
+	</div>
+	<div class="editor">
+		<div class="toolbar">
+			<a class="icon-move"></a>
+			<a class="icon-plus"></a>
+			<a class="icon-pencil"></a>
+			<a class="icon-arrow-up"></a>
+			<a class="icon-arrow-down"></a>
+			<a class="icon-arrow-left"></a>
+			<a class="icon-arrow-right"></a>
+			<a class="icon-close"></a>
+			<span class="close icon-x-altx-alt"></span>
+		</div>
+	</div>
+
+</div>
+
+<script src="raphael.js"></script>
+<script src="sea.js" data-config="config"></script>
+<script type="text/javascript">
+	seajs.use('xmind-refactor', function(XmindEditor){
+		var editor = new XmindEditor();
+	});
+</script>
+
+</body>
+</html>
+

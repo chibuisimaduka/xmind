@@ -1,0 +1,353 @@
+.icon-arrow-left,.icon-arrow-right,.icon-arrow-up,.icon-arrow-down,.icon-wrench,.icon-progress-0,.icon-ellipsis,.icon-dots,.icon-dot,.icon-in,.icon-zoom-in,.icon-zoom-out,.icon-add,.icon-subtract,.icon-comments,.icon-stack,.icon-number,.icon-number2,.icon-number3,.icon-number4,.icon-number5,.icon-number6,.icon-number7,.icon-number8,.icon-number9,.icon-number10,.icon-number11,.icon-number12,.icon-number13,.icon-number14,.icon-number15,.icon-number16,.icon-number17,.icon-quote,.icon-reply,.icon-forward,.icon-crop,.icon-square,.icon-square2,.icon-checked,.icon-error,.icon-add2,.icon-minus,.icon-eyedropper,.icon-switch,.icon-pencil,.icon-file,.icon-copy,.icon-paste,.icon-disk,.icon-undo,.icon-redo,.icon-zoom-in2,.icon-zoom-out2,.icon-expand,.icon-contract,.icon-cog,.icon-remove,.icon-tree,.icon-eye,.icon-close,.icon-checkmark,.icon-minus2,.icon-plus,.icon-loop,.icon-arrow-up2,.icon-arrow-right2,.icon-arrow-down2,.icon-arrow-left2,.icon-tab,.icon-checkbox-checked,.icon-checkbox-unchecked,.icon-radio-checked,.icon-radio-unchecked,.icon-scissors,.icon-text-height,.icon-text-width,.icon-bold,.icon-underline,.icon-italic,.icon-paragraph-left,.icon-paragraph-center,.icon-paragraph-right,.icon-paragraph-justify,.icon-new-tab,.icon-share,.icon-flickr,.icon-flickr2,.icon-github,.icon-github2,.icon-github3,.icon-github4,.icon-github5,.icon-apple,.icon-android,.icon-windows,.icon-windows8,.icon-html5,.icon-html52,.icon-css3,.icon-chrome,.icon-firefox,.icon-IE,.icon-opera,.icon-safari,.icon-list,.icon-check-alt,.icon-x-altx-alt,.icon-denied,.icon-plus-alt,.icon-minus-alt,.icon-move,.icon-fullscreen-exit-alt,.icon-fullscreen-alt,.icon-left-quote {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url(sprites.png);
+	background-repeat: no-repeat;
+}
+.icon-arrow-left {
+	background-position: 0 0;
+}
+.icon-arrow-right {
+	background-position: -32px 0;
+}
+.icon-arrow-up {
+	background-position: -64px 0;
+}
+.icon-arrow-down {
+	background-position: -96px 0;
+}
+.icon-wrench {
+	background-position: -128px 0;
+}
+.icon-progress-0 {
+	background-position: -160px 0;
+}
+.icon-ellipsis {
+	background-position: -192px 0;
+}
+.icon-dots {
+	background-position: -224px 0;
+}
+.icon-dot {
+	background-position: -256px 0;
+}
+.icon-in {
+	background-position: -288px 0;
+}
+.icon-zoom-in {
+	background-position: -320px 0;
+}
+.icon-zoom-out {
+	background-position: -352px 0;
+}
+.icon-add {
+	background-position: -384px 0;
+}
+.icon-subtract {
+	background-position: -416px 0;
+}
+.icon-comments {
+	background-position: -448px 0;
+}
+.icon-stack {
+	background-position: -480px 0;
+}
+.icon-number {
+	background-position: 0 -32px;
+}
+.icon-number2 {
+	background-position: -32px -32px;
+}
+.icon-number3 {
+	background-position: -64px -32px;
+}
+.icon-number4 {
+	background-position: -96px -32px;
+}
+.icon-number5 {
+	background-position: -128px -32px;
+}
+.icon-number6 {
+	background-position: -160px -32px;
+}
+.icon-number7 {
+	background-position: -192px -32px;
+}
+.icon-number8 {
+	background-position: -224px -32px;
+}
+.icon-number9 {
+	background-position: -256px -32px;
+}
+.icon-number10 {
+	background-position: -288px -32px;
+}
+.icon-number11 {
+	background-position: -320px -32px;
+}
+.icon-number12 {
+	background-position: -352px -32px;
+}
+.icon-number13 {
+	background-position: -384px -32px;
+}
+.icon-number14 {
+	background-position: -416px -32px;
+}
+.icon-number15 {
+	background-position: -448px -32px;
+}
+.icon-number16 {
+	background-position: -480px -32px;
+}
+.icon-number17 {
+	background-position: 0 -64px;
+}
+.icon-quote {
+	background-position: -32px -64px;
+}
+.icon-reply {
+	background-position: -64px -64px;
+}
+.icon-forward {
+	background-position: -96px -64px;
+}
+.icon-crop {
+	background-position: -128px -64px;
+}
+.icon-square {
+	background-position: -160px -64px;
+}
+.icon-square2 {
+	background-position: -192px -64px;
+}
+.icon-checked {
+	background-position: -224px -64px;
+}
+.icon-error {
+	background-position: -256px -64px;
+}
+.icon-add2 {
+	background-position: -288px -64px;
+}
+.icon-minus {
+	background-position: -320px -64px;
+}
+.icon-eyedropper {
+	background-position: -352px -64px;
+}
+.icon-switch {
+	background-position: -384px -64px;
+}
+.icon-pencil {
+	background-position: -416px -64px;
+}
+.icon-file {
+	background-position: -448px -64px;
+}
+.icon-copy {
+	background-position: -480px -64px;
+}
+.icon-paste {
+	background-position: 0 -96px;
+}
+.icon-disk {
+	background-position: -32px -96px;
+}
+.icon-undo {
+	background-position: -64px -96px;
+}
+.icon-redo {
+	background-position: -96px -96px;
+}
+.icon-zoom-in2 {
+	background-position: -128px -96px;
+}
+.icon-zoom-out2 {
+	background-position: -160px -96px;
+}
+.icon-expand {
+	background-position: -192px -96px;
+}
+.icon-contract {
+	background-position: -224px -96px;
+}
+.icon-cog {
+	background-position: -256px -96px;
+}
+.icon-remove {
+	background-position: -288px -96px;
+}
+.icon-tree {
+	background-position: -320px -96px;
+}
+.icon-eye {
+	background-position: -352px -96px;
+}
+.icon-close {
+	background-position: -384px -96px;
+}
+.icon-checkmark {
+	background-position: -416px -96px;
+}
+.icon-minus2 {
+	background-position: -448px -96px;
+}
+.icon-plus {
+	background-position: -480px -96px;
+}
+.icon-loop {
+	background-position: 0 -128px;
+}
+.icon-arrow-up2 {
+	background-position: -32px -128px;
+}
+.icon-arrow-right2 {
+	background-position: -64px -128px;
+}
+.icon-arrow-down2 {
+	background-position: -96px -128px;
+}
+.icon-arrow-left2 {
+	background-position: -128px -128px;
+}
+.icon-tab {
+	background-position: -160px -128px;
+}
+.icon-checkbox-checked {
+	background-position: -192px -128px;
+}
+.icon-checkbox-unchecked {
+	background-position: -224px -128px;
+}
+.icon-radio-checked {
+	background-position: -256px -128px;
+}
+.icon-radio-unchecked {
+	background-position: -288px -128px;
+}
+.icon-scissors {
+	background-position: -320px -128px;
+}
+.icon-text-height {
+	background-position: -352px -128px;
+}
+.icon-text-width {
+	background-position: -384px -128px;
+}
+.icon-bold {
+	background-position: -416px -128px;
+}
+.icon-underline {
+	background-position: -448px -128px;
+}
+.icon-italic {
+	background-position: -480px -128px;
+}
+.icon-paragraph-left {
+	background-position: 0 -160px;
+}
+.icon-paragraph-center {
+	background-position: -32px -160px;
+}
+.icon-paragraph-right {
+	background-position: -64px -160px;
+}
+.icon-paragraph-justify {
+	background-position: -96px -160px;
+}
+.icon-new-tab {
+	background-position: -128px -160px;
+}
+.icon-share {
+	background-position: -160px -160px;
+}
+.icon-flickr {
+	background-position: -192px -160px;
+}
+.icon-flickr2 {
+	background-position: -224px -160px;
+}
+.icon-github {
+	background-position: -256px -160px;
+}
+.icon-github2 {
+	background-position: -288px -160px;
+}
+.icon-github3 {
+	background-position: -320px -160px;
+}
+.icon-github4 {
+	background-position: -352px -160px;
+}
+.icon-github5 {
+	background-position: -384px -160px;
+}
+.icon-apple {
+	background-position: -416px -160px;
+}
+.icon-android {
+	background-position: -448px -160px;
+}
+.icon-windows {
+	background-position: -480px -160px;
+}
+.icon-windows8 {
+	background-position: 0 -192px;
+}
+.icon-html5 {
+	background-position: -32px -192px;
+}
+.icon-html52 {
+	background-position: -64px -192px;
+}
+.icon-css3 {
+	background-position: -96px -192px;
+}
+.icon-chrome {
+	background-position: -128px -192px;
+}
+.icon-firefox {
+	background-position: -160px -192px;
+	width: 17px;
+}
+.icon-IE {
+	background-position: -192px -192px;
+}
+.icon-opera {
+	background-position: -224px -192px;
+}
+.icon-safari {
+	background-position: -256px -192px;
+}
+.icon-list {
+	background-position: -288px -192px;
+}
+.icon-check-alt {
+	background-position: -320px -192px;
+}
+.icon-x-altx-alt {
+	background-position: -352px -192px;
+}
+.icon-denied {
+	background-position: -384px -192px;
+}
+.icon-plus-alt {
+	background-position: -416px -192px;
+}
+.icon-minus-alt {
+	background-position: -448px -192px;
+}
+.icon-move {
+	background-position: -480px -192px;
+}
+.icon-fullscreen-exit-alt {
+	background-position: 0 -224px;
+}
+.icon-fullscreen-alt {
+	background-position: -32px -224px;
+}
+.icon-left-quote {
+	background-position: -64px -224px;
+}

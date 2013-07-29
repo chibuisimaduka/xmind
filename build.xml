@@ -1,0 +1,41 @@
+<property name="root" value="./"></property>
+<property name="js" value="${root}"></property>
+<property name="lib" value="${root}/lib"></property>
+<property name="build" value="build"></property>
+
+
+<property name="project.name" value="xmind"></property>
+<property name="charset" value="utf-8"/>
+<property name="src" value="./"/>
+
+<target name="创建build目录">
+	<mkdir dir="${build}"/>
+</target>
+
+<!-- 将多个js合并成为一个js -->
+<target name="合并js" depends="创建build目录">
+	<concat destfile="${build}/xmind-all.js" encoding="${charset}" outputencoding="${charset}">
+		<path path="${js}/sea.js" />
+		<path path="${js}/config.js" />
+		<path path="${js}/plugin-shim.js" />
+		<path path="${js}/raphael.js" />
+		<path path="${js}/xmind.js" />
+	</concat>
+</target>
+
+<!-- 使用雅虎UI进行js压缩 -->
+<target name="开始压缩" depends="合并js">
+
+	<!-- 使用雅虎UI压缩 mapfuncall.js -->
+	<antcall target="xmind-all.js"></antcall>
+
+	<!-- 复制压缩后的js文件 -->
+	<antcall target="复制压缩js文件"></antcall>
+
+</target>
+
+<target name="xmind-all.js">
+	<java jar="${lib}/yui/yuicompressor-2.4.6.jar" fork="true">
+		<arg line="--type js --charset utf-8 ${js}/xmind-all.js -o ${build}/xmind-min.js"/> 
+	</java>
+</target>

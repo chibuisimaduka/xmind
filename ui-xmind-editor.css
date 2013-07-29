@@ -1,0 +1,15 @@
+html, body{width: 100%; height:100%; padding: 0; margin: 0;}
+.uixe{width: 100%; height:100%; background: url(bg.png); font-size: 14px;}
+.uixe .menuBar{width: 98%; height: 30px; background-color:#f3f3f3; padding: 5px 1% 0 1%; border-bottom:1px #aaa solid;}
+.menuBar .common{float: left;}
+.menuBar .window{float: right;}
+.menuBar .split{display:inline-block; height: 25px; width: 0px; border-left:1px #888 solid; border-right: 1px #fff solid;}
+.menuBar .common a{cursor:pointer; margin-right: 4px; padding-bottom:4px;}
+.menuBar .common a:hover{background-color: #00CC00;}
+.menuBar .menu-border{position: absolute; display: none; left: 0; top:3px; border:2px #9ACD32 solid; width:38px; height:38px; border-radius: 5px;}
+.uixe .editor{width: 100%; position: relative;}
+.editor .node{position: absolute; border:1px #444 solid; background-color: #fff; min-width: 100px; padding: 10px; border-radius: 10px;}
+.editor .selected{border:1px #00F solid; background-color: #55f; color:#fff;}
+.editor .toolbar{position:absolute; background-color:#f3f3f3; border:1px #aaf solid; padding: 5px; z-index: 100; display: none;}
+.editor .toolbar a:hover{background-color: #00CC00;}
+.editor .close{position: absolute; right:-9px; top:-9px;}
